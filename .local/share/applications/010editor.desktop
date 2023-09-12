@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=010 Editor
+Exec=/opt/010editor/010editor %f
+Icon=/opt/010editor/010_icon_128x128.png
+Categories=Development;
+MimeType=text/plain;text/x-c++src;text/x-c++hdr;text/html;text/xml;
