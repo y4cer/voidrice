@@ -12,3 +12,9 @@ pp  ${XDG_PICTURES_DIR:-$HOME/Pictures}
 sc  $HOME/.local/bin
 src $HOME/.local/src
 vv  ${XDG_VIDEOS_DIR:-$HOME/Videos}
+
+lat $HOME/progs/latex
+pr  $HOME/progs
+cppp $HOME/progs/cpp/the_cpp_programming_language
+yac $HOME/progs/yacor
+lce $HOME/progs/linear_code_equivalency

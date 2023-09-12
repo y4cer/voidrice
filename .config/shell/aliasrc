@@ -29,7 +29,12 @@ alias \
 	yt="yt-dlp --embed-metadata -i" \
 	yta="yt -x -f bestaudio/best" \
 	ytt="yt --skip-download --write-thumbnail" \
-	ffmpeg="ffmpeg -hide_banner"
+	ffmpeg="ffmpeg -hide_banner" \
+	la="ls -lash" \
+	vpn="wg-quick up a1ef0" \
+	vpnd="wg-quick down a1ef0" \
+	cloc="cloc --by-file-by-lang" \
+	dockerip="docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'" \
 
 # Colorize commands when possible.
 alias \
@@ -45,14 +50,17 @@ alias \
 	g="git" \
 	trem="transmission-remote" \
 	YT="youtube-viewer" \
-	sdn="shutdown -h now" \
+	oke="shutdown -h now" \
 	e="$EDITOR" \
 	v="$EDITOR" \
+	sv="sudo $EDITOR" \
 	p="pacman" \
+	y="yay" \
 	xi="sudo xbps-install" \
 	xr="sudo xbps-remove -R" \
 	xq="xbps-query" \
-	z="zathura"
+	z="zathura" \
+    cat="bat"
 
 alias \
 	lf="lfub" \
